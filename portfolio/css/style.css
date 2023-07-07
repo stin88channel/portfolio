@@ -371,16 +371,16 @@ h3.my-profession {
     margin: 15px 0;
 }
 
-.typing {
+#animated-text {
     color: var(--skin-color);
     position: relative;
 }
 
-.typing.first-text {
+#animated-text .first-text {
     color: var(--skin-color);
 }
 
-.typing.second-text::before {
+span.second-text::before {
     content: '';
     position: absolute;
     top: 0;
